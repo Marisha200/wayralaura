@@ -1,5 +1,6 @@
 import React from 'react';
 import { Compass, Heart, Eye, Sparkles } from 'lucide-react';
+import lauraWayra from '../assets/images/laura-wayra.png';
 
 export function SobreMi() {
   return (
@@ -33,7 +34,7 @@ export function SobreMi() {
               <div className="relative bg-[#fcf6f3] p-3 rounded-[2.2rem] shadow-xl border border-rose-100/60 overflow-hidden">
                 <div className="aspect-[4/5] rounded-[1.8rem] overflow-hidden relative">
                   <img 
-                    src="/src/assets/images/laura-wayra.png" 
+                    src={lauraWayra} 
                     alt="Laura Barros - Creadora de Camino Wayra" 
                     className="w-full h-full object-cover brightness-[101%] contrast-[98%] hover:scale-105 transition-transform duration-700"
                     referrerPolicy="no-referrer"

@@ -238,7 +238,7 @@ export default function App() {
               © 2026 Camino Wayra - Todos los derechos reservados.
             </span>
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 text-[11px] text-rose-100/35">
-              <span>Ubicación: Palermo Soho, Buenos Aires</span>
+              <span>Ubicación: Caballito, Buenos Aires</span>
               <span className="hidden sm:inline">•</span>
               <span>Teléfono: +54 9 11 2896-2181</span>
             </div>

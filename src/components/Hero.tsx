@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Leaf, Sparkles, Heart } from 'lucide-react';
 import { motion } from 'motion/react';
+import lauraWayra from '../assets/images/laura-wayra.png';
 
 interface HeroProps {
   createWhatsAppLink: (text: string) => string;
@@ -79,7 +80,7 @@ export function Hero({ createWhatsAppLink, onNavigate }: HeroProps) {
                   
                   {/* High quality portrait styling for Laura Barros */}
                   <img 
-                    src="/src/assets/images/laura-wayra.png" 
+                    src={lauraWayra} 
                     alt="Laura Barros - Camino Wayra" 
                     className="w-full h-full object-cover brightness-[101%] contrast-[98%] hover:scale-105 transition-transform duration-700"
                     referrerPolicy="no-referrer"
